@@ -7,7 +7,9 @@
 
 export const evenOrOdd = (num) => {
   if (num % 2 === 0) {
-    return "even";
+    return "Even";
   }
   return "odd";
 };
+
+export const multiply = (num1, num2) => num1 * num2;

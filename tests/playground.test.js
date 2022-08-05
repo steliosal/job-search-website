@@ -1,6 +1,6 @@
 //npm run test:unit
 //
-import { evenOrOdd } from "@/playground";
+import { evenOrOdd, multiply } from "@/playground";
 
 describe("basic Math", () => {
   it("adds two numbers", () => {
@@ -22,6 +22,12 @@ describe("basic Math", () => {
       it("indicates the number is odd", () => {
         expect(evenOrOdd(3)).toBe("odd");
       });
+    });
+  });
+
+  describe("multiply", () => {
+    it("multiplies two numbers together", () => {
+      expect(multiply(2, 3)).toBe(6);
     });
   });
 });

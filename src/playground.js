@@ -5,9 +5,9 @@
 // console.log(newArray);
 // console.log(newArray2);
 
-function evenOrOdd(num) {
+export const evenOrOdd = (num) => {
   if (num % 2 === 0) {
     return "even";
   }
   return "odd";
-}
+};

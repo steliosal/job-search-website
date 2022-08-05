@@ -1,3 +1,5 @@
+import { evenOrOdd } from "@/playground";
+
 describe("basic Math", () => {
   it("adds two numbers", () => {
     expect(1 + 1).toBe(2);
@@ -6,4 +8,6 @@ describe("basic Math", () => {
   it("subtracts 2 numbers", () => {
     expect(5 - 3).toBe(2);
   });
+
+  describe("evenOrOdd", () => {});
 });
